@@ -21,7 +21,7 @@ class picler_class:
             dictionary_of_users[self.dictionary['username']] = self.dictionary
 
 
-
+###
     def load(self):
         try:
             picFile = open('names.pickle', 'rb')
